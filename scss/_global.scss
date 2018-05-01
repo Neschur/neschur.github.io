@@ -60,3 +60,13 @@ h2 {
     }
   }
 }
+
+.custom-dev-icon {
+  height: 32px;
+  margin-top: -18px;
+  -webkit-filter: grayscale(100%);
+
+  &:hover {
+    -webkit-filter: grayscale(0%);
+  }
+}
